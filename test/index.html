@@ -18,64 +18,63 @@
   </div>
 
   <ul class="topnav">
-    <li><a class="active" href="#about">Over mij</a></li>
-    <li><a href="#project">Mijn Websites</a></li>
+    <li><a class="active" href="#home">Over mij</a></li>
+    <li><a href="#news">Mijn Websites</a></li>
     <li class="right"><a href="wikipedia/index.html">Mijn video's</a></li>
     <li class="right"><a href="#about">Contact</a></li>
   </ul>
   <div class="container text-center">
-    <div id="about">
-      <h2>Over mij</h2>
-      <h3>Creatief, enthousiast en veel inlevingsvermogen<br><small>Mijn naam is Folkert Burghout en ik ben momenteel bezig met een cursus tot full stack developer. Ik doe dit omdat ik programmeren een heel waardevolle skill en die graag wil beheersen.
-        Ik ben een maker en ik word heel enthousiast om ideeen tot werkelijkheid te maken!
-    </div>
     <div class="row">
-    <h2 class="spaceBelow" id="project">Projecten</h2>
+      <div class="col">ja
+      </div>
+      <div class="col">ka
+      </div>
+      <div class="col">ja
+      </div>
+    </div>
+    <h2>Over mij</h2>
+    <h3>Creatief, enthousiast en veel inlevingsvermogen<br><small>Mijn naam is Jesse Berkhof, ik ben momenteel een Media Development student in opleiding. Ik ben 20 jaar jong, woonachtig in Schiedam.
+
+In mijn vrije tijd ben ik vaak bezig met het ontwerpen van websites met behulp van HTML en CSS. Sinds ik de opleiding Applicatie Ontwikkeling op het Zadkine doe probeer ik ook mijn PHP en MySQL vaardigheden te implementeren in mijn werk.</small></h3>
+
+    <h2 class="spaceBelow">Projecten</h2>
+    <div class="row">
       <div class="caption col-xs-6 col-md-4">
         <a href="websites/index.html"><img src="images/browser.png" alt="mybff" width="75" height="75">
-          <p>Websites</p>
-        </a>
+    <p>Websites</p>
+    </a>
       </div>
       <div class="caption col-xs-6 col-md-4">
         <a href="API's/index.html"><img src="images/api.png" alt="mybff" width="75" height="75">
-          <p>REST API's</p>
-        </a>
+    <p>REST API's</p>
+    </a>
       </div>
       <div class="caption col-xs-6 col-xs-offset-3 col-md-4 col-md-offset-0">
         <a href="http://www.mybff.nl"><img src="images/code.png" alt="mybff" width="75" height="75">
-          <p>Future projects</p>
-        </a>
+    <p>Future projects</p>
+    </a>
       </div>
     </div>
-
-
     <div class="row">
-      <h2>Mijn video's</h2>
-      <div class="col-sm-6">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3y4G2FyxZnY"></iframe>
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/G9YZ95Otkv0"></iframe>
-        </div>
-      </div>
-      <div class="col-sm-6 col-sm-offset-3">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed//IVrDoaDp0-o"></iframe>
-        </div>
-      </div>
+      <center><div class="col-md-6"><iframe width="560" height="315" src="https://www.youtube.com/embed/3y4G2FyxZnY" frameborder="0" allowfullscreen></iframe></div></center>
+      <center><div class="col-md-6"><iframe width="560" height="315" src="https://www.youtube.com/embed/G9YZ95Otkv0" frameborder="0" allowfullscreen></iframe></div></center>
+      <center><div class="col-md-6 col-md-offset-3"><iframe width="560" height="315" src="https://www.youtube.com/embed/IVrDoaDp0-o" frameborder="0" allowfullscreen></iframe></div></center>
     </div>
 
+    <h2>Mijn video's</h2>
+    <p class="spaceBelow">hoe je het gaat doen is met col-xs en voor elke video en website etc een div maken en standaard css margin in de colom of juist full width met 100% etc etc. ook gezamelijk aanpassen op kleinere schermen..</p>
+    <div class="videos center-block row">
+      <div class="col-xs-12 col-md-6 embed-container"><iframe src='https://www.youtube.com/embed/3y4G2FyxZnY' frameborder='0' allowfullscreen></iframe></div>
+      <div class="col-xs-12 col-md-6 embed-container"><iframe src='https://www.youtube.com/embed/3y4G2FyxZnY' frameborder='0' allowfullscreen></iframe></div>
+      <div class="col-xs-12 col-md-6 embed-container"><iframe src='https://www.youtube.com/embed//IVrDoaDp0-o' frameborder='0' allowfullscreen></iframe></div>
+    </div>
 
     <h2>Mijn Hobbies</h2>
     <p>Doe hier iets cools met animatie. jquery ofzelfs dat van nathan. maar in ieder geval kitesurfen, piano, reisfoto's, snowboardfilm ed.(alleen bij hoveren dat die zichtbaar wordt ofzo.</p>
 
-
-    <div class="formulier" id="contact">
     <h2>Contact</h2>
     <p>neem contact op met mij etc. kijk bij wat jesse heeft..</p>
+    <div class="row formulier">
       <form action="mailto:folkertburghout@gmail.com" method="post" enctype="text/plain">
         <label for="fname">Name</label>
         <input type="text" id="name" name="name" placeholder="Your name..">
@@ -84,15 +83,14 @@
         <input type="text" id="email" name="email" placeholder="Your email..">
 
         <label for="Cment">Comment:</label>
-        <input type="text" name="comment" size="350" placeholder="Type text..">
+        <input type="text" name="comment" size="350">
         <span class="row">
-          <input class="col-xs-12 col-md-6" type="submit" value="Submit">
-          <input class="col-xs-12 col-md-6" type="reset" value="Reset">
-        </span>
+    <input class="col-xs-12 col-md-6" type="submit" value="Submit">
+    <input class="col-xs-12 col-md-6" type="reset" value="Reset">
+    </span>
         <!--ik vind het met de buttons heel moeilijk. wil voor kleine schermen onder elkaar. en voor grote naast elkaar maar kleine ruimte ertussen.. Ook wil ik een groot textfield bij Cment-->
       </form>
     </div>
-
     <div class="thanks content-center">
       <h2>Yeah, you read to the end! Thanks!!!</h2>
       <img src="images/cheer gif minions.gif" alt="Thanks for reading to the end!">
@@ -108,5 +106,5 @@
       <div class="col-xs-12">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a>, <a href="https://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> and <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a>        from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
     </footer>
 </body>
-<!--http://microsoftmonamour.com/#page-3 volgende sprint hierin. doe voor elke row een flip..-->
+
 </html>
