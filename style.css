@@ -66,6 +66,10 @@ h1, h2, p {
   display: block;
 }
 
+.section {
+  padding: 20px 0;
+}
+
 #about h3 small {
   text-align: left;
   display: inline-block;

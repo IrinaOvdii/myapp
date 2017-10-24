@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Encode Sans', sans-serif;
+}
+
+body {
+  background-color: #C6D8D3;
+  margin: 0;
+}
+
+h1, h2, p {
+  color: black;
+  text-align: center;
+}
+
+#mainheader {
+  background-image: url(../images/computer.jpg);
+  height: auto;
+  width: 100%;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 4px;
+  border-color: white;
+  position: relative;
+  top: 100px;
+  margin: auto;
+  display: block;
+}
+
+.section {
+  padding: 20px 0;
+}
+
+.caption img {
+  max-width: 100%;
+  padding: 10%;
+  margin: auto;
+  height: auto;
+  display: block;
+}
+
+.caption p {
+  font-size: 150%;
+  padding: 5px border: 1px solid black;
+  text-decoration: none;
+  /*waarom werkt dit niet? heb het ook maar op hover gedaan werkt ook niet*/
+}
+
+.caption p:hover {
+  text-decoration: none;
+  /*doet dus niets*/
+}
+
+.spaceBelow {
+  padding-bottom: 20px;
+}
+
+
+
+footer {
+  background-color: #333;
+  color: white;
+  font-size: 150%;
+  margin-top: 20px;
+  padding: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* voor mobiele telefoons and pads: */
+  .avatar {
+    top: 0px;
+  }
+  /*waarom werkt dit niet?*/
+  #mainheader {
+    padding: 10px 0;
+    margin-bottom: 50px
+  }
+}
